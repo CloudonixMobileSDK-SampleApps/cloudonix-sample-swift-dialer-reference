@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A1901B71F442D4800E32744 /* EditSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A1901B61F442D4800E32744 /* EditSettingsViewController.swift */; };
+		6A1901B91F44331E00E32744 /* SettingsTextTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A1901B81F44331E00E32744 /* SettingsTextTableViewCell.swift */; };
+		6A1901BB1F44333400E32744 /* SettingsSwitchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A1901BA1F44333400E32744 /* SettingsSwitchTableViewCell.swift */; };
+		6A4BCE5E1F4477CE0025C054 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A4BCE5D1F4477CE0025C054 /* Extensions.swift */; };
+		6A62771E1F49CC2B007D5596 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A62771D1F49CC2B007D5596 /* Constants.swift */; };
+		6A6277201F49CD5F007D5596 /* IncomingCallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A62771F1F49CD5F007D5596 /* IncomingCallViewController.swift */; };
+		6A66802F1F499CFE009F2A2E /* Keypad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A66802E1F499CFE009F2A2E /* Keypad.swift */; };
+		6A8471F71F49B07100A0FE05 /* ActiveCallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A8471F61F49B07100A0FE05 /* ActiveCallViewController.swift */; };
+		6AC12ACF1F695C8A00430732 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6AC12AC51F695BF400430732 /* OpenSans-Bold.ttf */; };
+		6AC12AD01F695C8A00430732 /* OpenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6AC12AC61F695BF400430732 /* OpenSans-BoldItalic.ttf */; };
+		6AC12AD11F695C8A00430732 /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6AC12ACC1F695BF400430732 /* OpenSans-ExtraBold.ttf */; };
+		6AC12AD21F695C8A00430732 /* OpenSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6AC12AC71F695BF400430732 /* OpenSans-ExtraBoldItalic.ttf */; };
+		6AC12AD31F695C8A00430732 /* OpenSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6AC12ACA1F695BF400430732 /* OpenSans-Italic.ttf */; };
+		6AC12AD41F695C8A00430732 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6AC12ACB1F695BF400430732 /* OpenSans-Light.ttf */; };
+		6AC12AD51F695C8A00430732 /* OpenSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6AC12AC81F695BF400430732 /* OpenSans-LightItalic.ttf */; };
+		6AC12AD61F695C8A00430732 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6AC12AC91F695BF400430732 /* OpenSans-Regular.ttf */; };
+		6AC12AD71F695C8A00430732 /* OpenSans-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6AC12ACD1F695BF400430732 /* OpenSans-Semibold.ttf */; };
+		6AC12AD81F695C8A00430732 /* OpenSans-SemiboldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6AC12ACE1F695BF400430732 /* OpenSans-SemiboldItalic.ttf */; };
+		6AD279A21F430E780075F616 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD279A11F430E780075F616 /* AppDelegate.swift */; };
+		6AD279A71F430E780075F616 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AD279A51F430E780075F616 /* Main.storyboard */; };
+		6AD279A91F430E780075F616 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AD279A81F430E780075F616 /* Assets.xcassets */; };
+		6AD279AC1F430E780075F616 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AD279AA1F430E780075F616 /* LaunchScreen.storyboard */; };
+		6AD279B71F430FAB0075F616 /* KeypadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD279B61F430FAB0075F616 /* KeypadViewController.swift */; };
+		6AD279D21F4323C60075F616 /* SIPSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD279D11F4323C60075F616 /* SIPSettings.swift */; };
+		6AD279D41F432F9A0075F616 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD279D31F432F9A0075F616 /* SettingsViewController.swift */; };
+		FF8538952863548A0086D956 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FF8538942863548A0086D956 /* libc++.tbd */; };
+		FF8B776F287EC25100DA3D83 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = FF8B776E287EC25100DA3D83 /* README.md */; };
+		FFBA047D2871CB4000E16807 /* libCloudonixSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FFBA047B2871CB4000E16807 /* libCloudonixSDK.a */; };
+		FFBA047E2871CB4000E16807 /* libthirdparty.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FFBA047C2871CB4000E16807 /* libthirdparty.a */; };
+		FFBA04812871CF0500E16807 /* license-key.lic in Resources */ = {isa = PBXBuildFile; fileRef = FFBA04802871CF0500E16807 /* license-key.lic */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6A1901B61F442D4800E32744 /* EditSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditSettingsViewController.swift; sourceTree = "<group>"; };
+		6A1901B81F44331E00E32744 /* SettingsTextTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTextTableViewCell.swift; sourceTree = "<group>"; };
+		6A1901BA1F44333400E32744 /* SettingsSwitchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsSwitchTableViewCell.swift; sourceTree = "<group>"; };
+		6A4BCE5D1F4477CE0025C054 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		6A62771D1F49CC2B007D5596 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		6A62771F1F49CD5F007D5596 /* IncomingCallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncomingCallViewController.swift; sourceTree = "<group>"; };
+		6A66802E1F499CFE009F2A2E /* Keypad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keypad.swift; sourceTree = "<group>"; };
+		6A8471F61F49B07100A0FE05 /* ActiveCallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveCallViewController.swift; sourceTree = "<group>"; };
+		6AC12AC51F695BF400430732 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		6AC12AC61F695BF400430732 /* OpenSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		6AC12AC71F695BF400430732 /* OpenSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		6AC12AC81F695BF400430732 /* OpenSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		6AC12AC91F695BF400430732 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		6AC12ACA1F695BF400430732 /* OpenSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Italic.ttf"; sourceTree = "<group>"; };
+		6AC12ACB1F695BF400430732 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		6AC12ACC1F695BF400430732 /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		6AC12ACD1F695BF400430732 /* OpenSans-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Semibold.ttf"; sourceTree = "<group>"; };
+		6AC12ACE1F695BF400430732 /* OpenSans-SemiboldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiboldItalic.ttf"; sourceTree = "<group>"; };
+		6AD2799E1F430E780075F616 /* Swift Dialer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift Dialer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AD279A11F430E780075F616 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6AD279A61F430E780075F616 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6AD279A81F430E780075F616 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6AD279AB1F430E780075F616 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6AD279AD1F430E780075F616 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AD279B61F430FAB0075F616 /* KeypadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeypadViewController.swift; sourceTree = "<group>"; };
+		6AD279BF1F4312A10075F616 /* Cloudonix-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Cloudonix-Bridging-Header.h"; sourceTree = "<group>"; };
+		6AD279D11F4323C60075F616 /* SIPSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SIPSettings.swift; sourceTree = "<group>"; };
+		6AD279D31F432F9A0075F616 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		FF8538942863548A0086D956 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		FF8B776E287EC25100DA3D83 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		FFBA047B2871CB4000E16807 /* libCloudonixSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libCloudonixSDK.a; path = CloudonixSDK/libraries/libCloudonixSDK.a; sourceTree = "<group>"; };
+		FFBA047C2871CB4000E16807 /* libthirdparty.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libthirdparty.a; path = CloudonixSDK/libraries/libthirdparty.a; sourceTree = "<group>"; };
+		FFBA04802871CF0500E16807 /* license-key.lic */ = {isa = PBXFileReference; lastKnownFileType = text; path = "license-key.lic"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6AD2799B1F430E780075F616 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFBA047E2871CB4000E16807 /* libthirdparty.a in Frameworks */,
+				FFBA047D2871CB4000E16807 /* libCloudonixSDK.a in Frameworks */,
+				FF8538952863548A0086D956 /* libc++.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A4BCE5C1F4477C00025C054 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				6A4BCE5D1F4477CE0025C054 /* Extensions.swift */,
+				6A62771D1F49CC2B007D5596 /* Constants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		6AD279951F430E770075F616 = {
+			isa = PBXGroup;
+			children = (
+				FF8B776E287EC25100DA3D83 /* README.md */,
+				FFBA04802871CF0500E16807 /* license-key.lic */,
+				6AD279A01F430E780075F616 /* Dialer */,
+				6AD2799F1F430E780075F616 /* Products */,
+				6AD279C21F4313930075F616 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6AD2799F1F430E780075F616 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6AD2799E1F430E780075F616 /* Swift Dialer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6AD279A01F430E780075F616 /* Dialer */ = {
+			isa = PBXGroup;
+			children = (
+				6AD4A80E1F4B1D7700B27130 /* Resources */,
+				6A4BCE5C1F4477C00025C054 /* Utils */,
+				6AD279B31F430EBA0075F616 /* Model */,
+				6AD279B51F430EBA0075F616 /* Controller */,
+				6AD279B41F430EBA0075F616 /* View */,
+				6AD279A11F430E780075F616 /* AppDelegate.swift */,
+				6AD279BF1F4312A10075F616 /* Cloudonix-Bridging-Header.h */,
+				6AD279A51F430E780075F616 /* Main.storyboard */,
+				6AD279A81F430E780075F616 /* Assets.xcassets */,
+				6AD279AA1F430E780075F616 /* LaunchScreen.storyboard */,
+				6AD279AD1F430E780075F616 /* Info.plist */,
+			);
+			path = Dialer;
+			sourceTree = "<group>";
+		};
+		6AD279B31F430EBA0075F616 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6AD279D11F4323C60075F616 /* SIPSettings.swift */,
+				6A66802E1F499CFE009F2A2E /* Keypad.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6AD279B41F430EBA0075F616 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6A1901B81F44331E00E32744 /* SettingsTextTableViewCell.swift */,
+				6A1901BA1F44333400E32744 /* SettingsSwitchTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6AD279B51F430EBA0075F616 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6AD279B61F430FAB0075F616 /* KeypadViewController.swift */,
+				6A8471F61F49B07100A0FE05 /* ActiveCallViewController.swift */,
+				6A62771F1F49CD5F007D5596 /* IncomingCallViewController.swift */,
+				6AD279D31F432F9A0075F616 /* SettingsViewController.swift */,
+				6A1901B61F442D4800E32744 /* EditSettingsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6AD279C21F4313930075F616 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FFBA047B2871CB4000E16807 /* libCloudonixSDK.a */,
+				FFBA047C2871CB4000E16807 /* libthirdparty.a */,
+				FF8538942863548A0086D956 /* libc++.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6AD4A80E1F4B1D7700B27130 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6AD4A8221F4B1D8A00B27130 /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6AD4A8221F4B1D8A00B27130 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				6AC12AC51F695BF400430732 /* OpenSans-Bold.ttf */,
+				6AC12AC61F695BF400430732 /* OpenSans-BoldItalic.ttf */,
+				6AC12ACC1F695BF400430732 /* OpenSans-ExtraBold.ttf */,
+				6AC12AC71F695BF400430732 /* OpenSans-ExtraBoldItalic.ttf */,
+				6AC12ACA1F695BF400430732 /* OpenSans-Italic.ttf */,
+				6AC12ACB1F695BF400430732 /* OpenSans-Light.ttf */,
+				6AC12AC81F695BF400430732 /* OpenSans-LightItalic.ttf */,
+				6AC12AC91F695BF400430732 /* OpenSans-Regular.ttf */,
+				6AC12ACD1F695BF400430732 /* OpenSans-Semibold.ttf */,
+				6AC12ACE1F695BF400430732 /* OpenSans-SemiboldItalic.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6AD2799D1F430E780075F616 /* Swift Dialer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AD279B01F430E780075F616 /* Build configuration list for PBXNativeTarget "Swift Dialer" */;
+			buildPhases = (
+				6AD2799A1F430E780075F616 /* Sources */,
+				6AD2799B1F430E780075F616 /* Frameworks */,
+				6AD2799C1F430E780075F616 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swift Dialer";
+			productName = Cloudonix;
+			productReference = 6AD2799E1F430E780075F616 /* Swift Dialer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6AD279961F430E770075F616 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 1340;
+				ORGANIZATIONNAME = Cloudonix;
+				TargetAttributes = {
+					6AD2799D1F430E780075F616 = {
+						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 1340;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 6AD279991F430E770075F616 /* Build configuration list for PBXProject "Swift Dialer" */;
+			compatibilityVersion = "Xcode 11.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6AD279951F430E770075F616;
+			productRefGroup = 6AD2799F1F430E780075F616 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6AD2799D1F430E780075F616 /* Swift Dialer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6AD2799C1F430E780075F616 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFBA04812871CF0500E16807 /* license-key.lic in Resources */,
+				6AD279AC1F430E780075F616 /* LaunchScreen.storyboard in Resources */,
+				6AD279A91F430E780075F616 /* Assets.xcassets in Resources */,
+				6AC12AD41F695C8A00430732 /* OpenSans-Light.ttf in Resources */,
+				6AD279A71F430E780075F616 /* Main.storyboard in Resources */,
+				6AC12AD21F695C8A00430732 /* OpenSans-ExtraBoldItalic.ttf in Resources */,
+				6AC12AD81F695C8A00430732 /* OpenSans-SemiboldItalic.ttf in Resources */,
+				6AC12AD61F695C8A00430732 /* OpenSans-Regular.ttf in Resources */,
+				6AC12AD71F695C8A00430732 /* OpenSans-Semibold.ttf in Resources */,
+				6AC12AD01F695C8A00430732 /* OpenSans-BoldItalic.ttf in Resources */,
+				6AC12ACF1F695C8A00430732 /* OpenSans-Bold.ttf in Resources */,
+				6AC12AD31F695C8A00430732 /* OpenSans-Italic.ttf in Resources */,
+				FF8B776F287EC25100DA3D83 /* README.md in Resources */,
+				6AC12AD51F695C8A00430732 /* OpenSans-LightItalic.ttf in Resources */,
+				6AC12AD11F695C8A00430732 /* OpenSans-ExtraBold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6AD2799A1F430E780075F616 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A6277201F49CD5F007D5596 /* IncomingCallViewController.swift in Sources */,
+				6AD279B71F430FAB0075F616 /* KeypadViewController.swift in Sources */,
+				6A8471F71F49B07100A0FE05 /* ActiveCallViewController.swift in Sources */,
+				6A4BCE5E1F4477CE0025C054 /* Extensions.swift in Sources */,
+				6AD279D21F4323C60075F616 /* SIPSettings.swift in Sources */,
+				6AD279D41F432F9A0075F616 /* SettingsViewController.swift in Sources */,
+				6A66802F1F499CFE009F2A2E /* Keypad.swift in Sources */,
+				6A1901B71F442D4800E32744 /* EditSettingsViewController.swift in Sources */,
+				6AD279A21F430E780075F616 /* AppDelegate.swift in Sources */,
+				6A1901BB1F44333400E32744 /* SettingsSwitchTableViewCell.swift in Sources */,
+				6A1901B91F44331E00E32744 /* SettingsTextTableViewCell.swift in Sources */,
+				6A62771E1F49CC2B007D5596 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6AD279A51F430E780075F616 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6AD279A61F430E780075F616 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6AD279AA1F430E780075F616 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6AD279AB1F430E780075F616 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6AD279AE1F430E780075F616 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					x86_64,
+				);
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6AD279AF1F430E780075F616 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					x86_64,
+				);
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6AD279B11F430E780075F616 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LIBRARY = "libc++";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q6TW2UWEBY;
+				GCC_WARN_PEDANTIC = YES;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/CloudonixSDK/include";
+				INFOPLIST_FILE = Dialer/Info.plist;
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/CloudonixSDK/libraries";
+				PRODUCT_BUNDLE_IDENTIFIER = io.cloudonix.ios.SwiftDialer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/Dialer/Cloudonix-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		6AD279B21F430E780075F616 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LIBRARY = "libc++";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q6TW2UWEBY;
+				GCC_WARN_PEDANTIC = YES;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/CloudonixSDK/include";
+				INFOPLIST_FILE = Dialer/Info.plist;
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/CloudonixSDK/libraries";
+				PRODUCT_BUNDLE_IDENTIFIER = io.cloudonix.ios.SwiftDialer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/Dialer/Cloudonix-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6AD279991F430E770075F616 /* Build configuration list for PBXProject "Swift Dialer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AD279AE1F430E780075F616 /* Debug */,
+				6AD279AF1F430E780075F616 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AD279B01F430E780075F616 /* Build configuration list for PBXNativeTarget "Swift Dialer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AD279B11F430E780075F616 /* Debug */,
+				6AD279B21F430E780075F616 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6AD279961F430E770075F616 /* Project object */;
+}

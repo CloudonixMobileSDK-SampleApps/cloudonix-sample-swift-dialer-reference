@@ -1,0 +1,5 @@
+**/.DS_Store
+CloudonixSDK/include
+CloudonixSDK/libraries
+*.xcodeproj/xcuserdata/
+license-key.lic
